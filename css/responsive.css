@@ -388,4 +388,7 @@
         width: 90%;
     }
 
+    .trusted__title {
+        text-align: center;
+    }
 }
