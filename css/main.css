@@ -48,11 +48,9 @@ a {
 .logo {
     display: flex;
     gap: 10px;
-    margin-bottom: 89px;
 }
 
 .logo_invert {
-    margin-bottom: 0;
     color: #fff;
 }
 

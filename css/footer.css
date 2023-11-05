@@ -1,5 +1,6 @@
 .footer {
-    padding: 132px 245px;
+    padding-top: 132px;
+    padding-bottom: 132px;
     background: linear-gradient(180deg, #E0F605 0%, #000 100%);
     /* border-radius: 0 0  50px 50px; */
     font-family: 'Montserrat', sans-serif;

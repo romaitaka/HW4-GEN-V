@@ -1,0 +1,54 @@
+/* Large: 992px - 1199px */
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header__hat {
+        margin-bottom: 92px;
+    }
+
+    .header__hero-images {
+        width: 393px;
+        height: 294px;
+    }
+
+    .header__hero-image {
+        width: 136.301px;
+        height: 280.952px;
+    }
+
+    .header__hero-image_one {
+        left: 35px;
+    }
+
+    .header__hero-image_two {
+        bottom: 17px;
+        left: 97.97px;
+    }
+
+    .header__hero-image_three {
+        left: 126.63px;
+    }
+
+    .header__hero-image_four {
+        bottom: 17px;
+        left: 221.28px;
+    }
+
+    .services {
+        padding-top: 132px;
+    }
+
+
+    .highlite__img {
+        width: 455px;
+        height: 455px;
+    }
+
+    .highlite__text-block {
+        width: 455px;
+        padding: 50px;
+    }
+}
