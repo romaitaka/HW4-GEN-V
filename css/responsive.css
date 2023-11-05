@@ -331,6 +331,11 @@
         width: auto;
     }
 
+    .header__hero-images {
+        max-width: 310px;
+        overflow: hidden;
+    }
+
     .header__hero-image_one {
         left: 32px;
     }
