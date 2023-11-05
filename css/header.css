@@ -1,0 +1,84 @@
+.header {
+    padding-top: 88px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__hat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__phone-number {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.35em;
+}
+
+.header__offer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 581px;
+}
+
+.offer__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.35em;
+}
+
+.offer__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.53em;
+    width: 438px;
+}
+
+.header__hero-images {
+    display: flex;
+    width: 519px;
+    height: 388px;
+    position: relative;
+}
+
+.header__hero-image {
+    position: absolute;
+    width: 180px;
+    height: 371.028px;
+    transform: rotate(29.761deg);
+    border-radius: 200px;
+}
+
+.header__hero-image_one {
+    background: linear-gradient(180deg, #342A29 0.01%, #E0F605 317.84%);
+    bottom: -6px;
+    left: 46px;
+    z-index: 1;
+}
+
+.header__hero-image_two {
+    bottom: 26px;
+    left: 130.18px;
+    z-index: 3;
+}
+
+.header__hero-image_three {
+    background: linear-gradient(180deg, #342A29 0.01%, #E0F605 317.84%);
+    bottom: -6px;
+    left: 168.02px;
+    z-index: 1;
+}
+
+.header__hero-image_four {
+    bottom: 26px;
+    left: 291px;
+    z-index: 0;
+}

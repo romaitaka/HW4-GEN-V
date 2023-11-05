@@ -1,0 +1,140 @@
+.services {
+    padding-top: 138px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #161420;
+}
+
+.container_services {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.services__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.35em;
+}
+
+.services__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 320px;
+}
+
+.card__img {
+    width: 64px;
+    height: 64px;
+    animation: rotateY 2.5s linear infinite;
+    cursor: pointer;
+}
+
+.card__img:hover {
+    animation: none;
+}
+
+@keyframes rotateY {
+    0% {
+        transform: rotateY(0deg);
+        /* начальное состояние (0 градусов) */
+    }
+
+    100% {
+        transform: rotateY(360deg);
+        /* конечное состояние (360 градусов) */
+    }
+}
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.35em;
+}
+
+.card__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.53em;
+}
+
+.card__button {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.53em;
+}
+
+.card__button:hover {
+    /* background: linear-gradient(181deg, #E0F605 0.97%, #000 146.41%); */
+    transform: scale(1.2);
+}
+
+.highlite {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlite__img {
+    width: 530px;
+    height: 530px;
+    border-radius: 70px;
+    background: url(../img/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.highlite__text-block {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    width: 530px;
+    /* height: 530px; */
+    padding: 100px 80px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 70px;
+    background: linear-gradient(180deg, #342A29 0.01%, #E0F605 317.84%);
+    gap: 21px;
+    color: rgba(255, 255, 255, 0.83);
+    line-height: 1.35em;
+    font-weight: 700;
+}
+
+.highlite__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+.highlite__title {
+    font-size: 30px;
+    line-height: normal;
+}
+
+.highlite__subtitle {
+    font-size: 20px;
+}
+
+.highlite__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.53em;
+}
