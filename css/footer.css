@@ -23,10 +23,13 @@
     line-height: 1.53em;
 }
 
-.footer__copyright {
-    margin-top: auto;
-    margin-bottom: 10px;
+.footer__copy-and-privacy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.footer__copyright {}
 
 .footer__privacy {}
 
@@ -70,6 +73,20 @@
     align-items: flex-end;
 }
 
+.footer__contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.footer__sign-in {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
 .footer__phone-number {
     text-align: right;
     font-size: 17px;
@@ -80,8 +97,6 @@
 
 .footer__email {
     color: #FFF;
-    margin-top: 10px;
-    margin-bottom: auto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.53em;
@@ -93,6 +108,7 @@
     line-height: 1.53em;
     margin-bottom: 10px;
     cursor: pointer;
+    margin: 0;
 }
 
 .footer__create {
